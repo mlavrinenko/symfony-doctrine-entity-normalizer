@@ -1,0 +1,16 @@
+{
+  "name": "maximaster/symfony-doctrine-entity-normalizer",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1.0",
+    "doctrine/orm": "^2.6",
+    "symfony/serializer": "4.*",
+    "symfony/property-info": "4.*",
+    "symfony/property-access": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maximaster\\SymfonyDoctrineEntityNormalizer\\": "src/"
+    }
+  }
+}
